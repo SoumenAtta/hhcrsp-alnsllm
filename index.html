@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Supplementary Webpage for Manuscript: HHCRSP-ALNS+LLM</title>
+  <meta name="description" content="Supplementary page for the manuscript on An Adaptive Large Neighborhood Search with LLM-Based Operator Weight Adaptation and Neighborhood Control for the Home Healthcare Routing and Scheduling Problem.">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=Space+Grotesk:wght@400;500;600&display=swap');
+
+    :root {
+      --bg: #f6f2ea;
+      --ink: #1f1a14;
+      --muted: #5a5148;
+      --accent: #2a7f62;
+      --accent-2: #d87a3f;
+      --card: #fff9f1;
+      --shadow: 0 20px 50px rgba(31, 26, 20, 0.15);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(216, 122, 63, 0.18), transparent 60%),
+        radial-gradient(900px 500px at 90% 10%, rgba(42, 127, 98, 0.2), transparent 60%),
+        linear-gradient(180deg, #f9f4eb 0%, #f1ebe1 100%);
+      font-family: "Source Serif 4", Georgia, serif;
+      line-height: 1.6;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+      display: grid;
+      gap: 32px;
+    }
+
+    header {
+      background: var(--card);
+      border: 1px solid rgba(31, 26, 20, 0.1);
+      border-radius: 24px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+      animation: float-in 700ms ease-out both;
+    }
+
+    h1, h2, h3 {
+      font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+      margin: 0 0 12px;
+      line-height: 1.2;
+    }
+
+    h1 {
+      font-size: clamp(1.9rem, 3.2vw, 3rem);
+      color: var(--ink);
+    }
+
+    h2 {
+      font-size: clamp(1.2rem, 2vw, 1.6rem);
+      color: var(--accent);
+      margin-top: 6px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-top: 8px;
+    }
+
+    .authors {
+      margin-top: 24px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(31, 26, 20, 0.1);
+      font-size: 0.98rem;
+    }
+
+    .authors strong {
+      font-family: "Space Grotesk", "Trebuchet MS", sans-serif;
+      font-weight: 600;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(42, 127, 98, 0.4);
+    }
+
+    a:hover {
+      color: var(--accent-2);
+      border-bottom-color: rgba(216, 122, 63, 0.6);
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 20px;
+      padding: 28px 30px;
+      border: 1px solid rgba(31, 26, 20, 0.08);
+      animation: fade-up 800ms ease-out both;
+    }
+
+    section:nth-of-type(2) {
+      animation-delay: 120ms;
+    }
+
+    .reference {
+      margin: 12px 0 0;
+      padding-left: 20px;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: flex-end;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    @keyframes float-in {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 32px 16px 56px;
+      }
+
+      header {
+        padding: 24px;
+      }
+
+      section {
+        padding: 22px 20px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Supplementary Webpage for Manuscript</h1>
+      <h2>An Adaptive Large Neighborhood Search with LLM-Based Operator Weight Adaptation and Neighborhood Control for the Home Healthcare Routing and Scheduling Problem</h2>
+      <p class="subtitle">Supplementary material and citation information.</p>
+      <div class="authors">
+        <p><strong>Soumen Atta</strong><sup>1</sup></p>
+        <p><sup>1</sup>Faculty of Information Technology, University of Jyvaskyla, P.O. Box 35 (Agora), FI-40014, Finland</p>
+        <p><sup>*</sup>Corresponding author: <a href="mailto:soumen.s.atta@jyu.fi?Subject=TIP%20Dataset">soumen.s.atta@jyu.fi</a></p>
+      </div>
+    </header>
+
+    <section aria-labelledby="dataset-note">
+      <h3 id="dataset-note">Instances</h3>
+      <p>The instances used in this paper are adapted from the test instances originally introduced by Mankowska et al. [1] and modified to align with the specific modeling assumptions and problem formulation considered in this work.</p>
+    </section>
+
+    <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;font-weight:bold;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-lboi{border-color:inherit;text-align:left;vertical-align:middle}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<p>The table below reports the minimum cost achieved by the proposed ALNS algorithm and provides links to view the corresponding routes for each instance.</p>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-lboi">Instance</th>
+    <th class="tg-lboi">Cost</th>
+    <th class="tg-0pky">Routes</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_1.txt" target="_blank" rel="noopener">3_10_13_3_1</a></td>
+    <td class="tg-0pky">654.596</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_1.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_2.txt" target="_blank" rel="noopener">3_10_13_3_2</a></td>
+    <td class="tg-0pky">744.381</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_2.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_3.txt" target="_blank" rel="noopener">3_10_13_3_3</a></td>
+    <td class="tg-0pky">568.63</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_3.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_4.txt" target="_blank" rel="noopener">3_10_13_3_4</a></td>
+    <td class="tg-0pky">600.298</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_4.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_5.txt" target="_blank" rel="noopener">3_10_13_3_5</a></td>
+    <td class="tg-0pky">676.107</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_5.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_6.txt" target="_blank" rel="noopener">3_10_13_3_6</a></td>
+    <td class="tg-0pky">666.885</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_6.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/3_10_13_3_7.txt" target="_blank" rel="noopener">3_10_13_3_7</a></td>
+    <td class="tg-0pky">675.017</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_3_10_13_3_7.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/5_25_33_8_1.txt" target="_blank" rel="noopener">5_25_33_8_1</a></td>
+    <td class="tg-0pky">1324.172</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_5_25_33_8_1.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/5_25_33_8_2.txt" target="_blank" rel="noopener">5_25_33_8_2</a></td>
+    <td class="tg-0pky">1232.675</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_5_25_33_8_2.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/5_25_33_8_3.txt" target="_blank" rel="noopener">5_25_33_8_3</a></td>
+    <td class="tg-0pky">986.013</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_5_25_33_8_3.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/5_25_33_8_4.txt" target="_blank" rel="noopener">5_25_33_8_4</a></td>
+    <td class="tg-0pky">1076.072</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_5_25_33_8_4.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/5_25_33_8_5.txt" target="_blank" rel="noopener">5_25_33_8_5</a></td>
+    <td class="tg-0pky">1243.058</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_5_25_33_8_5.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/10_50_65_15_1.txt" target="_blank" rel="noopener">10_50_65_15_1</a></td>
+    <td class="tg-0pky">1850.894</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_10_50_65_15_1.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/10_50_65_15_2.txt" target="_blank" rel="noopener">10_50_65_15_2</a></td>
+    <td class="tg-0pky">1737.967</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_10_50_65_15_2.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/10_50_65_15_3.txt" target="_blank" rel="noopener">10_50_65_15_3</a></td>
+    <td class="tg-0pky">1586.584</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_10_50_65_15_3.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/10_50_65_15_4.txt" target="_blank" rel="noopener">10_50_65_15_4</a></td>
+    <td class="tg-0pky">1577.74</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_10_50_65_15_4.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/10_50_65_15_5.txt" target="_blank" rel="noopener">10_50_65_15_5</a></td>
+    <td class="tg-0pky">1428.216</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_10_50_65_15_5.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><a href="instances/10_50_65_15_6.txt" target="_blank" rel="noopener">10_50_65_15_6</a></td>
+    <td class="tg-0pky">1707.403</td>
+    <td class="tg-lboi"><a href="plots_best_routes_hhcrsp_alnsllm/best_routes_10_50_65_15_6.svg" target="_blank" rel="noopener">View Routes</a></td>
+  </tr>
+</tbody></table>
+
+
+    <section aria-labelledby="references">
+      <h3 id="references">References</h3>
+      <ol class="reference">
+        <li>D. S. Mankowska, F. Meisel, and C. Bierwirth, "The home health care routing and scheduling problem with interdependent services," Health Care Management Science, vol. 17, no. 1, pp. 15-30, 2014.</li>
+      </ol>
+    </section>
+
+    <div class="meta">
+      <p><em>This page was created on January 05, 2026.</em></p>
+    </div>
+  </main>
+</body>
+</html>
